@@ -1,0 +1,107 @@
+body {
+  background: #2e2f34;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+}
+
+h4 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h6 {
+  font-family: 'Lato', sans-serif;
+  margin-top: 5px;
+  color: #9e9e9e;
+}
+
+a {
+  text-decoration: none !important;
+  color: #8c716e;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #9e807d;
+}
+
+.brand-nav{
+  margin: 15px;
+}
+
+.brand-name {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.search-row {
+  margin-top: 50px;
+}
+
+.input-group {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+.input-group:hover,
+.input-group:focus,
+.input-group:active {
+  width: 500px;
+  transition: width ease-in-out .7s,box-shadow ease-in-out .7s;
+  border: 1px solid #fff;
+}
+
+.input-group-addon {
+  color: #fff;
+  background: #3b3c42;
+  border-radius: 0 50px 50px 0;
+  border: none;
+}
+
+#wiki-logo {
+  height: 60px;
+}
+
+input#search {
+  background: #3b3c42;
+  border-radius: 50px 0 0 50px;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+#randomTitle {
+  margin-top: 30px;
+}
+
+#randomExtract {
+  padding: 10px 50px 10px 50px;
+}
+
+#searchResults {
+  margin-top: 50px;
+}
+
+.item {
+  margin-bottom: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.item-head {
+  border-right: 2px solid #8c716e;
+}
+
+.item-body {
+  padding-left: 40px;
+  padding-right: 50px;
+  border-radius: 0 10px 10px 0;
+}
+
+.item-body:hover {
+  background: #505159;
+}
