@@ -18,15 +18,20 @@ form, #results {
     padding: 0 20px;
     }
     
-    #result {
+.search {
+    width: 100px;
+    }
+    
+.resultItem {
         z-index: 2;
         
     }
-.item { 
-    margin-bottom: 25px; 
+.searchResults { 
+    margin: 0px;
     z-index: 2;
     box-shadow: 10px 9px 44px -15px rgba(0,0,0,0.75);
-    height:
+    height: 500px;
+    width: 500px;
     }
 
 .w100 { 
